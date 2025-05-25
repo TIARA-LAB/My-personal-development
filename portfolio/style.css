@@ -1,0 +1,16 @@
+.background{
+    color: #ff0000;
+}
+h1{
+    color: pink;
+}
+.login{
+    color: yellow;
+    text-align: center;
+}
+@media(max-width 600px
+){
+.background{
+    
+}
+}
