@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h2>Contact for Booking An Hotel Room</h2> 
+ <form id="contact form">
+    <input type="text" id="name" placeholder="Your name">
+     <input type="email" id="email" placeholder="Your email">
+      <input type="type of room:suite,single" id="type of room:suite,single" 
+      placeholder="type of room:suite,single">
+      <textarea id="additional information"placeholder="additionalinformation"></textarea>
+
+      <button type="sumbit">sumbit</button>
+ </form>
+</body>
+<script>
+    const form = document.getElementById('contactForm');
+    const responsemessage = document.getElementById('responseMessage');
+
+        const name = document.getElementById('name') . value;
+    const email = document.getElementById('email') .value;
+    const typeofroom = document.getElementById('typeofroom') . value;
+    const additionalinformation = document.getElementById('additionalinformation') .value;
+    form.addEventListener('sumbit,function(event)')
+
+</script>
+</html>
