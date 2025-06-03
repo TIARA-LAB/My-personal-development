@@ -12,12 +12,26 @@
      <input type="email" id="email" placeholder="Your email">
       <input type="type of room:suite,single" id="type of room:suite,single" 
       placeholder="type of room:suite,single">
-      <textarea id="additional information"placeholder="additionalinformation"></textarea>
+      <textarea id="additional information"placeholder="additionalinformation">additionalinformation</textarea>
 
       <button type="sumbit">sumbit</button>
+
  </form>
 </body>
 <script>
+    // style the body
+    document.body.style.backgroundColor = "lightblue";
+    // style the h2 element
+    document.querySelector('h2').style.color = "green";
+    // style the form
+    const formElement = document.getElementById('contact form');
+    formElement.style.border = "2px solid black";
+    formElement.style.padding = "20px";
+    element.style.color = "red";
+    //style the sumbit button
+    const submitButton = document.querySelector('button[type="sumbit"]');
+    submitButton.style.backgroundColor = "yellow";
+    submitButton.style.color = "Red";
     const form = document.getElementById('contactForm');
     const responsemessage = document.getElementById('responseMessage');
 
@@ -25,7 +39,7 @@
     const email = document.getElementById('email') .value;
     const typeofroom = document.getElementById('typeofroom') . value;
     const additionalinformation = document.getElementById('additionalinformation') .value;
-    form.addEventListener('sumbit,function(event)')
+    form.addEventListener('sumbit,function(event)');
 
 </script>
 </html>
